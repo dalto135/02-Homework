@@ -1,0 +1,93 @@
+* {
+    border: 2px solid black;
+    margin: 4px;
+    padding: 4px;
+}
+
+header {
+    display: flex;
+    border-color: blue;
+}
+
+body {
+    border-color: gray;
+}
+
+section {
+    border-color:darkgoldenrod;
+    display: flex;
+}
+
+#about-me,
+#work,
+#contact-me {
+
+}
+
+div {
+    align-items: center;
+    border-color: green;
+    flex: 1 1;
+}
+
+.shortcuts {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("solarpunk.png");
+    /* width: 100%; */
+}
+
+.image img {
+    width: 100%;
+}
+
+.image h2 {
+    margin-top: 100px;
+    /* position: relative;
+    right: 0;
+    z-index: 2; */
+    /* justify-content: flex-end; */
+    
+}
+
+img {
+    width: 100%;
+    z-index: 1;
+}
+
+a {
+    font-size: medium;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.title {
+    flex: 0.5 0.5;
+    /* border-right: 4px solid green; */
+    text-align: right;
+}
+
+footer {
+    border-color: red;
+}
+
+@media screen and (max-width: 980px) {
+    header, section {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div {
+        display: block;
+    }
+}
