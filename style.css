@@ -3,10 +3,13 @@
     /* border-color: rgba(0, 255, 128, 0.75); */
     margin: 4px;
     padding: 4px;
+    font-family:eurostile, sans-serif;
+    font-weight: normal;
 }
 
 a {
     text-decoration-line: none;
+    font-weight: normal;
 }
 
 :root {
@@ -35,7 +38,7 @@ h2 {
 }
 
 p {
-    font-size: 12pt;
+    font-size: 16pt;
     background: var(--cloudy);    
 }
 
@@ -108,11 +111,11 @@ div {
 .content a:hover,
 #shortcuts a:hover {
     color: white;
-    
     background-image: linear-gradient(var(--mint),
         navy);
 }
 
+#contact h2:hover,
 .content a:hover,
 #shortcuts a:hover {
     text-shadow: 2px 2px black;
@@ -126,6 +129,10 @@ div {
 
 #contact h2 {
     background-color: var(--cloudy);
+}
+
+#contact a {
+    border-width: 0;
 }
 
 #name {
@@ -151,7 +158,8 @@ div {
     flex: 2 2;
 }
 
-#shortcuts a {
+#shortcuts a,
+#shortcuts button {
     color: black;
     background-color: var(--cloudy);
 }
@@ -168,24 +176,24 @@ div {
 }
 
 #hello {
-    background-image: url("https://www.abc.net.au/reslib/201105/r775562_6639716.jpg");
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/000/561/903/large/derek-weselake-backda.jpg?1426830042");
 }
 
 
 #chitchat {
-    background-image: url("https://cdnb.artstation.com/p/assets/images/images/000/561/903/large/derek-weselake-backda.jpg?1426830042");
+    background-image: url("https://www.abc.net.au/reslib/201105/r775562_6639716.jpg");
 }
 
 #goodbye {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRskj4WBx0pgjekVQsM--k5uG4LjyziO-e6MQ&usqp=CAU");
+    background-image: url("https://thumbs.dreamstime.com/z/super-trees-gardens-bay-singapore-105551731.jpg");
 }
 
 #yes {
-    background-image: url("https://i.pinimg.com/originals/10/33/b7/1033b72b0d4c935ac1151d8cecddac8e.jpg");
+    background-image: url("https://i.pinimg.com/originals/7f/1e/0d/7f1e0d2ac3bd87d6f57f73492d3bf6d1.jpg");
 }
 
 #no {
-    background-image: url("https://i.pinimg.com/originals/7f/1e/0d/7f1e0d2ac3bd87d6f57f73492d3bf6d1.jpg");
+    background-image: url("https://i.pinimg.com/originals/10/33/b7/1033b72b0d4c935ac1151d8cecddac8e.jpg");
 }
 
 img {
