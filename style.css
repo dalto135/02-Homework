@@ -1,6 +1,5 @@
 * {
     border: 2px solid black;
-    /* border-color: rgba(0, 255, 128, 0.75); */
     margin: 4px;
     padding: 4px;
     font-family:eurostile, sans-serif;
@@ -15,8 +14,9 @@ a {
 :root {
     --mint: rgba(0, 255, 128, 1);
     --cloudy: rgba(256, 256, 256, 0.5);
-    --cloudyMint: rgba(0, 255, 128, 0.15);
+    /* --cloudyMint: rgba(0, 255, 128, 0.15); */
     --blue: rgb(0, 0, 64);
+    --teal: rgb(0, 80, 80);
 }
 
 /* html, body {
@@ -24,7 +24,6 @@ a {
 } */
 
 html {
-    border-color: black;
     background-color: rgb(34, 42, 46);
 }
 
@@ -48,11 +47,11 @@ body {
 
 header {
     display: flex;
-    border-color: rgb(0, 80, 80);
+    border-color: var(--teal);
 }
 
 section {
-    border-color: darkcyan;
+    border-color: var(--teal);
     display: flex;
 }
 
@@ -88,7 +87,8 @@ div {
 
 #work h2,
 #work a {
-    flex: 1 1;    
+    flex: 1 1;
+    font-weight: normal;
 }
 
 #work h2 {
@@ -211,7 +211,7 @@ a {
 }
 
 footer {
-    border-color: rgb(0, 80, 80);
+    border-color: var(--teal);
     text-align: center;
 }
 
