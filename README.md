@@ -1,6 +1,30 @@
-A portfolio website designed to both provide my personal information and demonstrate various skills using html and css.
+# CSS Portfolio
 
-![Screenshot 1](https://github.com/dalto135/02-Homework/blob/main/Screen%20Shot%202021-02-06%20at%2011.25.09%20PM.png)
-![Screenshot 2](https://github.com/dalto135/02-Homework/blob/main/Screen%20Shot%202021-02-06%20at%2011.25.20%20PM.png)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-https://dalto135.github.io/CSS_Portfolio/
+## Table of Contents
+[Project Link](#Link)  
+[Technologies](#Technologies)  
+[Description](#Description)  
+[Screenshots](#Screenshots)  
+[License](#License)  
+[Contact](#Contact)
+
+## Link
+https://dalto135.github.io/css_portfolio/
+
+## Technologies
+HTML and CSS
+
+## Description
+A portfolio website designed to both provide my personal information and demonstrate various skills using HTML and CSS.
+
+## Screenshots
+![Screenshot 1](images/screenshot1.png)
+![Screenshot 2](images/screenshot2.png)
+
+## License
+MIT
+
+## Contact
+Dalton Wilkins - wilkins.271@osu.edu
