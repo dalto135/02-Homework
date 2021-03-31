@@ -11,7 +11,7 @@
 [Contact](#Contact)
 
 ## Link
-https://dalto135.github.io/css_portfolio/
+https://dalto135.github.io/css-portfolio/
 
 ## Technologies
 HTML and CSS
