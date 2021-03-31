@@ -75,7 +75,7 @@ a {
 #image {
     display: flex;
     justify-content: flex-end;
-    background-image: url("solarpunk.png");
+    background-image: url("../images/solarpunk.png");
 }
 
 #image h1 {
